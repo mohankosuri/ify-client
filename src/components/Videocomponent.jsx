@@ -64,7 +64,7 @@ const Videocomponent = () => {
       </form>
       <div className="grid grid-cols-3 gap-4">
         {videos.map((video, index) => (
-          <div key={index} className="flex">
+          <div key={index}className="flex" >
             <iframe
               width="560"
               height="315"
@@ -74,9 +74,10 @@ const Videocomponent = () => {
               allowFullScreen
             ></iframe>
 
-             
+            
           </div>
         ))}
+       
       </div>
     </div>
   );

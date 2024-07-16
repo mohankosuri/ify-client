@@ -4,7 +4,7 @@ import Dropdown from '../components/Dropdown'
 const Blog = () => {
   return (
     <div>
-        <Dropdown/>
+         
     </div>
   )
 }
