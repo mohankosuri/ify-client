@@ -1,9 +1,18 @@
-import React from 'react'
+import React,{useState} from 'react'
 import { NavLink } from 'react-router-dom'
+import Dropdown from './Dropdown';
  
 
 
 const Navbar = () => {
+
+    const [isOpen, setIsOpen] = useState(false);
+
+    const handleClick = () => {
+        setIsOpen(!isOpen);
+      };
+
+
   return (
     <div>
         <header className='shadow-md bg-white font-sans tracking-wide relative z-50'>
@@ -52,7 +61,8 @@ const Navbar = () => {
         </g>
       </svg>
       </a>
-      <div className="inline-block border-gray-300 border-l-2 pl-6 cursor-pointer">
+     
+      <div className="inline-block border-gray-300 border-l-2 pl-6 cursor-pointer" onClick={handleClick}>
         <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 24 24">
           <circle cx="10" cy="7" r="6" data-original="#000000" />
           <path
@@ -60,9 +70,12 @@ const Navbar = () => {
             data-original="#000000" />
         </svg>
       </div>
+     
     </div>
   </section>
-
+  <div className='flex justify-center ml-[950px]'>
+  {isOpen &&<Dropdown/>}
+  </div>
   <div className='flex flex-wrap py-3.5 px-10 overflow-x-auto'>
 
     <div id="collapseMenu"

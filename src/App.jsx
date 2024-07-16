@@ -7,6 +7,7 @@ import Blog from './screens/Blog'
 import About from './screens/About'
 import Contact from './screens/Contact'
 import Home from './screens/Home'
+import Footer from './components/Footer'
 
  
  const App = () => {
@@ -21,6 +22,7 @@ import Home from './screens/Home'
         <Route path='/About' element={<About/>}/>
         <Route path='/Contact' element={<Contact/>}/>
        </Routes>
+       <Footer/>
      </div>
    )
  }

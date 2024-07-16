@@ -43,7 +43,7 @@ const description={
 
 const Team = () => {
   return (
-    <div className='grid grid-cols-3'>
+    <div className='grid grid-cols-3 m-4'>
 
  
        

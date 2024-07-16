@@ -1,8 +1,11 @@
 import React from 'react'
+import Dropdown from '../components/Dropdown'
 
 const Blog = () => {
   return (
-    <div>Blog</div>
+    <div>
+        <Dropdown/>
+    </div>
   )
 }
 
