@@ -9,17 +9,19 @@ const Navbar = () => {
         <header className='shadow-md bg-white font-sans tracking-wide relative z-50'>
   <section
     className='flex items-center lg:justify-center flex-wrap gap-5 relative py-3 px-10 border-gray-200 border-b lg:min-h-[80px] max-lg:min-h-[60px]'>
-    <NavLink to={'/'}><img src="https://www.svgrepo.com/show/303135/soundcloud-logo.svg" alt="logo"
+    <NavLink to={'/'}><img src="/logo.svg" alt= "img"
         className='md:w-[70px] w-36' />
     </NavLink>
 
     <div className="space-x-6 md:absolute md:right-10 flex items-center max-md:ml-auto">
+        <a href='https://www.facebook.com/'>
       <svg xmlns="http://www.w3.org/2000/svg" className="cursor-pointer" width="20px" height="20px"
         viewBox="0 0 512 512">
         <path
           d="M449.643 0H62.357C27.973 0 0 27.973 0 62.357v387.285C0 484.027 27.973 512 62.357 512H260.86c8.349 0 15.118-6.769 15.118-15.118v-183.31c0-8.349-6.769-15.118-15.118-15.118h-54.341v-43.033h54.341c8.349 0 15.118-6.769 15.118-15.118v-61.192c0-33.116 26.942-60.058 60.059-60.058h52.433v43.033h-52.433c-9.387 0-17.025 7.639-17.025 17.026v61.192c0 8.349 6.769 15.118 15.118 15.118h54.341v43.033H334.13c-8.349 0-15.118 6.769-15.118 15.118v183.31c0 8.349 6.769 15.118 15.118 15.118h115.513C484.027 512 512 484.027 512 449.643V62.357C512 27.973 484.027 0 449.643 0zm32.121 449.643c0 17.712-14.409 32.122-32.122 32.122H349.246V328.69h54.341c8.349 0 15.118-6.769 15.118-15.118v-73.268c0-8.349-6.769-15.118-15.118-15.118h-54.341v-32.864h54.341c8.349 0 15.118-6.769 15.118-15.118v-73.268c0-8.349-6.769-15.118-15.118-15.118h-67.551c-49.788 0-90.294 40.506-90.294 90.294v46.074h-54.341c-8.349 0-15.118 6.769-15.118 15.118v73.268c0 8.349 6.769 15.118 15.118 15.118h54.341v153.074H62.357c-17.712 0-32.122-14.409-32.122-32.122V62.357c0-17.712 14.409-32.122 32.122-32.122h387.285c17.712 0 32.122 14.409 32.122 32.122v387.286z"
           data-original="#000000" />
-      </svg>
+      </svg></a>
+      <a href='https://www.instagram.com/'> 
       <svg xmlns="http://www.w3.org/2000/svg" className="cursor-pointer" width="20px" height="20px"
         viewBox="0 0 409.61 409.61">
         <path
@@ -30,6 +32,8 @@ const Navbar = () => {
           d="M204.805 102.4c-56.566 0-102.4 45.839-102.4 102.4 0 56.54 45.834 102.41 102.4 102.41 56.55 0 102.4-45.87 102.4-102.41 0-56.561-45.85-102.4-102.4-102.4zm0 170.675c-37.699 0-68.265-30.566-68.265-68.275s30.566-68.265 68.265-68.265 68.265 30.556 68.265 68.265-30.566 68.275-68.265 68.275z"
           data-original="#000000" />
       </svg>
+      </a>
+      <a href='https://www.linkedin.com/in/kosuri-mohan-krishna-gowd-b22b40257/'>  
       <svg xmlns="http://www.w3.org/2000/svg" className="cursor-pointer" width="20px" height="20px"
         viewBox="0 0 682.667 682.667">
         <defs>
@@ -47,6 +51,7 @@ const Navbar = () => {
             data-original="#000000" />
         </g>
       </svg>
+      </a>
       <div className="inline-block border-gray-300 border-l-2 pl-6 cursor-pointer">
         <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 24 24">
           <circle cx="10" cy="7" r="6" data-original="#000000" />
