@@ -3,7 +3,7 @@ import React from 'react'
 const Footer = () => {
   return (
     <div>
-        <footer className="bg-gray-900 p-10 font-[sans-serif] tracking-wide">
+        <footer className="bg-gray-900 p-10 font-[sans-serif] tracking-wide w-full">
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
         <div className="lg:flex lg:items-center">
           <a href="javascript:void(0)">
@@ -75,9 +75,12 @@ const Footer = () => {
         </div>
       </div>
 
-      <p className='text-gray-300 text-sm mt-10'>© 2023<a href='https://readymadeui.com/' target='_blank'
+     <div className='flex justify-center'>
+
+     <p className='text-gray-300 text-sm mt-10'>© 2024<a href='https://readymadeui.com/' target='_blank'
         className="hover:underline mx-1">IFY downloader</a>All Rights Reserved.
       </p>
+     </div>
     </footer>
     </div>
   )

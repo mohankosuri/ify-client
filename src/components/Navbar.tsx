@@ -14,7 +14,7 @@ const Navbar = () => {
 
 
   return (
-    <div>
+    
         <header className='shadow-md bg-white font-sans tracking-wide relative z-50'>
   <section
     className='flex items-center lg:justify-center flex-wrap gap-5 relative py-3 px-10 border-gray-200 border-b lg:min-h-[80px] max-lg:min-h-[60px]'>
@@ -124,7 +124,7 @@ const Navbar = () => {
     </div>
   </div>
 </header>
-    </div>
+    
   )
 }
 
